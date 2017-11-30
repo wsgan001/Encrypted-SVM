@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry excluding="association/|classification/|clustering/|clustering/linkage/|feature/|gap/|imputation/|manifold/|mds/|neighbor/|projection/|regression/|sampling/|sequence/|taxonomy/|util/|validation/|vq/|wavelet/" kind="src" path="smile"/>
-	<classpathentry kind="lib" path="C:/Users/test/Documents/GitHub/Encrypted-SVM/encrypted_smile/slf4j-api-1.7.25.jar"/>
-	<classpathentry kind="output" path="bin"/>
-</classpath>
