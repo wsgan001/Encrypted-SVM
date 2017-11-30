@@ -16,7 +16,7 @@
 
 package validation;
 
-import smile.math.Math;
+import math.Math;
 
 /**
  * Rand Index. Rand index is defined as the number of pairs of objects

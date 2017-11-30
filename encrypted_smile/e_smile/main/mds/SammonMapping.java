@@ -18,7 +18,7 @@ package mds;
 import java.util.Arrays;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import smile.math.Math;
+import math.Math;
 
 /**
  * The Sammon's mapping is an iterative technique for making interpoint

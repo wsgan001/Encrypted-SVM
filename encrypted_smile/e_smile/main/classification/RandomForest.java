@@ -22,9 +22,9 @@ import java.util.List;
 import java.util.concurrent.Callable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import smile.data.Attribute;
-import smile.data.NumericAttribute;
-import smile.math.Math;
+import data.Attribute;
+import data.NumericAttribute;
+import math.Math;
 import util.MulticoreExecutor;
 import util.SmileUtils;
 import validation.Accuracy;
@@ -332,7 +332,7 @@ public class RandomForest implements SoftClassifier<double[]>, Serializable {
         @Override
         public Tree call() {
             int n = x.length;
-            int k = smile.math.Math.max(y) + 1;
+            int k = math.Math.max(y) + 1;
             int[] samples = new int[n];
 
             // Stratified sampling in case class is unbalanced.

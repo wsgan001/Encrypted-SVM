@@ -18,10 +18,10 @@ package regression;
 import java.io.Serializable;
 import java.util.Arrays;
 
-import smile.data.Attribute;
-import smile.data.NumericAttribute;
-import smile.math.Math;
-import smile.sort.QuickSelect;
+import data.Attribute;
+import data.NumericAttribute;
+import math.Math;
+import sort.QuickSelect;
 import util.SmileUtils;
 import validation.RMSE;
 import validation.RegressionMeasure;

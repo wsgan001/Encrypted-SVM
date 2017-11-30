@@ -16,9 +16,9 @@
 package projection;
 
 import java.io.Serializable;
-import smile.math.Math;
-import smile.math.matrix.DenseMatrix;
-import smile.math.matrix.Matrix;
+import math.Math;
+import math.matrix.DenseMatrix;
+import math.matrix.Matrix;
 
 /**
  * Generalized Hebbian Algorithm. GHA is a linear feed-forward neural

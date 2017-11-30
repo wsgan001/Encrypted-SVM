@@ -15,7 +15,7 @@
  *******************************************************************************/
 package classification;
 
-import smile.data.Attribute;
+import data.Attribute;
 
 /**
  * Abstract classifier trainer.

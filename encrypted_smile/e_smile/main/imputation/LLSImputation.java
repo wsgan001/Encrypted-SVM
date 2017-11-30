@@ -16,10 +16,10 @@
 
 package imputation;
 
-import smile.math.matrix.Matrix;
-import smile.math.matrix.LU;
-import smile.math.matrix.DenseMatrix;
-import smile.sort.QuickSort;
+import math.matrix.Matrix;
+import math.matrix.LU;
+import math.matrix.DenseMatrix;
+import sort.QuickSort;
 
 /**
  * Local least squares missing value imputation. The local least squares

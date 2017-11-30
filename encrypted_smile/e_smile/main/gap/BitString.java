@@ -16,7 +16,7 @@
 
 package gap;
 
-import smile.math.Math;
+import math.Math;
 
 /**
  * The standard bit string representation of the solution domain.

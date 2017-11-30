@@ -16,9 +16,9 @@
 
 package feature;
 
-import smile.data.Attribute;
-import smile.data.NominalAttribute;
-import smile.data.NumericAttribute;
+import data.Attribute;
+import data.NominalAttribute;
+import data.NumericAttribute;
 
 /**
  * Encode categorical integer features using a one-hot aka one-of-K scheme.

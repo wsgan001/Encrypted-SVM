@@ -18,8 +18,8 @@ package feature;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import smile.data.Attribute;
-import smile.math.Math;
+import data.Attribute;
+import math.Math;
 
 /**
  * Normalize samples individually to unit norm. Each sample (i.e. each row of

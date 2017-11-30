@@ -16,7 +16,7 @@
 
 package validation;
 
-import smile.math.Math;
+import math.Math;
 
 /**
  * Cross-validation is a technique for assessing how the results of a

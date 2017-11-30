@@ -23,10 +23,10 @@ import clustering.HierarchicalClustering;
 import clustering.BBDTree;
 import clustering.linkage.Linkage;
 import clustering.linkage.UPGMALinkage;
-import smile.math.Math;
-import smile.math.matrix.Matrix;
-import smile.math.matrix.DenseMatrix;
-import smile.math.matrix.EVD;
+import math.Math;
+import math.matrix.Matrix;
+import math.matrix.DenseMatrix;
+import math.matrix.EVD;
 
 /**
  * Self-Organizing Map. An SOM is a unsupervised learning method to produce

@@ -17,7 +17,7 @@ package sequence;
 
 import java.util.HashMap;
 import java.util.Map;
-import smile.math.Math;
+import math.Math;
 
 /**
  * First-order Hidden Markov Model. A hidden Markov model (HMM) is a statistical

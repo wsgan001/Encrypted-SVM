@@ -17,10 +17,10 @@ package mds;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import smile.math.Math;
-import smile.math.matrix.Matrix;
-import smile.math.matrix.DenseMatrix;
-import smile.math.matrix.EVD;
+import math.Math;
+import math.matrix.Matrix;
+import math.matrix.DenseMatrix;
+import math.matrix.EVD;
 
 /**
  * Classical multidimensional scaling, also known as principal coordinates

@@ -16,7 +16,7 @@
 
 package imputation;
 
-import smile.sort.QuickSort;
+import sort.QuickSort;
 
 /**
  * Missing value imputation by k-nearest neighbors. The KNN-based method

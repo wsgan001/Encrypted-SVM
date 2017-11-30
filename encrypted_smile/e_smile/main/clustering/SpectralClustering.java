@@ -18,10 +18,10 @@ package clustering;
 import java.io.Serializable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import smile.math.Math;
-import smile.math.matrix.Matrix;
-import smile.math.matrix.DenseMatrix;
-import smile.math.matrix.EVD;
+import math.Math;
+import math.matrix.Matrix;
+import math.matrix.DenseMatrix;
+import math.matrix.EVD;
 
 /**
  * Spectral Clustering. Given a set of data points, the similarity matrix may

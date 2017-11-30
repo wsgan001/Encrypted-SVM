@@ -23,9 +23,9 @@ import clustering.Clustering;
 import clustering.HierarchicalClustering;
 import clustering.linkage.Linkage;
 import clustering.linkage.UPGMALinkage;
-import smile.sort.HeapSelect;
-import smile.math.Math;
-import smile.stat.distribution.GaussianDistribution;
+import sort.HeapSelect;
+import math.Math;
+import stat.distribution.GaussianDistribution;
 
 /**
  * NeuralMap is an efficient competitive learning algorithm inspired by growing

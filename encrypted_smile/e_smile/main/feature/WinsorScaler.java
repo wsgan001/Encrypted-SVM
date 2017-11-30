@@ -16,9 +16,9 @@
 
 package feature;
 
-import smile.math.Math;
-import smile.data.Attribute;
-import smile.sort.QuickSelect;
+import math.Math;
+import data.Attribute;
+import sort.QuickSelect;
 
 /**
  * Scales all numeric variables into the range [0, 1].

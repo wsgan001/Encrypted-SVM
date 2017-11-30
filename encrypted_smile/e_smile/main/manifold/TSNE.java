@@ -22,8 +22,8 @@ import java.util.List;
 import java.util.concurrent.Callable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import smile.math.Math;
-import smile.stat.distribution.GaussianDistribution;
+import math.Math;
+import stat.distribution.GaussianDistribution;
 import util.MulticoreExecutor;
 
 /**

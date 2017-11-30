@@ -20,13 +20,13 @@ import java.io.Serializable;
 import java.util.Arrays;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import smile.math.Math;
-import smile.math.matrix.Matrix;
-import smile.math.matrix.DenseMatrix;
-import smile.math.matrix.QR;
-import smile.math.matrix.SVD;
-import smile.math.matrix.Cholesky;
-import smile.math.special.Beta;
+import math.Math;
+import math.matrix.Matrix;
+import math.matrix.DenseMatrix;
+import math.matrix.QR;
+import math.matrix.SVD;
+import math.matrix.Cholesky;
+import math.special.Beta;
 
 /**
  * Ordinary least squares. In linear regression,

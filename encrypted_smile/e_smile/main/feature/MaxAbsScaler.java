@@ -16,8 +16,8 @@
 
 package feature;
 
-import smile.math.Math;
-import smile.data.Attribute;
+import math.Math;
+import data.Attribute;
 
 /**
  * Scales each feature by its maximum absolute value. This class scales and

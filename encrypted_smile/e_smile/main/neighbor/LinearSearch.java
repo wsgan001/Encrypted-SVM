@@ -18,8 +18,8 @@ package neighbor;
 
 import java.util.List;
 
-import smile.math.distance.Distance;
-import smile.sort.HeapSelect;
+import math.distance.Distance;
+import sort.HeapSelect;
 
 /**
  * Brute force linear nearest neighbor search. This simplest solution computes

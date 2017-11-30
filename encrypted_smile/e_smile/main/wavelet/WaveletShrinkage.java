@@ -16,7 +16,7 @@
 
 package wavelet;
 
-import smile.math.Math;
+import math.Math;
 
 /**
  * The wavelet shrinkage is a signal denoising technique based on the idea of

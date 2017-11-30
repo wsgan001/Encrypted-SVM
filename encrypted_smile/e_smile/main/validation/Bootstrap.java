@@ -16,7 +16,7 @@
 
 package validation;
 
-import smile.math.Math;
+import math.Math;
 
 /**
  * The bootstrap is a general tool for assessing statistical accuracy. The basic

@@ -20,11 +20,11 @@ import java.util.Arrays;
 
 import clustering.CLARANS;
 import clustering.KMeans;
-import smile.data.Attribute;
-import smile.math.Math;
-import smile.math.distance.Metric;
-import smile.math.rbf.GaussianRadialBasis;
-import smile.sort.QuickSort;
+import data.Attribute;
+import math.Math;
+import math.distance.Metric;
+import math.rbf.GaussianRadialBasis;
+import sort.QuickSort;
 
 /**
  * Some useful functions.

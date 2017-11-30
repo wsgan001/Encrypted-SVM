@@ -15,10 +15,10 @@
  *******************************************************************************/
 package classification;
 
-import smile.stat.distribution.Distribution;
+import stat.distribution.Distribution;
 
 import java.io.Serializable;
-import smile.math.SparseArray;
+import math.SparseArray;
 
 /**
  * Naive Bayes classifier. A naive Bayes classifier is a simple probabilistic

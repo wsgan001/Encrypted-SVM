@@ -19,13 +19,13 @@ package classification;
 import java.io.Serializable;
 import java.util.Arrays;
 
-import smile.math.Math;
-import smile.math.distance.Metric;
-import smile.math.matrix.Matrix;
-import smile.math.matrix.DenseMatrix;
-import smile.math.matrix.QR;
-import smile.math.rbf.GaussianRadialBasis;
-import smile.math.rbf.RadialBasisFunction;
+import math.Math;
+import math.distance.Metric;
+import math.matrix.Matrix;
+import math.matrix.DenseMatrix;
+import math.matrix.QR;
+import math.rbf.GaussianRadialBasis;
+import math.rbf.RadialBasisFunction;
 import util.SmileUtils;
 
 /**

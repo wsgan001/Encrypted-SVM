@@ -41,7 +41,7 @@ public class TSNEDemo extends JPanel implements Runnable, ActionListener {
             "MNIST"
     };
 
-    double[][] data;
+    double[][] data1;
     int[] labels;
 
     JPanel optionPane;
@@ -80,12 +80,12 @@ public class TSNEDemo extends JPanel implements Runnable, ActionListener {
     public JComponent learn() {
         JPanel pane = new JPanel(new GridLayout(1, 2));
 
-        PCA pca = new PCA(data);
+        PCA pca = new PCA(data1);
         pca.setProjection(50);
-        double[][] X = pca.project(data);
+        double[][] X = pca.project(data1);
         long clock = System.currentTimeMillis();
         TSNE tsne = new TSNE(X, 2, perplexity, 200, 1000);
-        System.out.format("Learn t-SNE from %d samples in %dms\n", data.length, System.currentTimeMillis() - clock);
+        System.out.format("Learn t-SNE from %d samples in %dms\n", data1.length, System.currentTimeMillis() - clock);
 
         double[][] y = tsne.getCoordinates();
 
@@ -132,7 +132,7 @@ public class TSNEDemo extends JPanel implements Runnable, ActionListener {
 
             try {
                 AttributeDataset dataset = parser.parse(data.parser.IOUtils.getTestDataFile("mnist/mnist2500_X.txt"));
-                data = dataset.toArray(new double[dataset.size()][]);
+                data1 = dataset.toArray(new double[dataset.size()][]);
 
                 dataset = parser.parse(data.parser.IOUtils.getTestDataFile("mnist/mnist2500_labels.txt"));
                 labels = new int[dataset.size()];

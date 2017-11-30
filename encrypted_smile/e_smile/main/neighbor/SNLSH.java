@@ -15,9 +15,9 @@
  *******************************************************************************/
 package neighbor;
 
-import smile.hash.MurmurHash;
-import smile.math.distance.HammingDistance;
-import smile.sort.HeapSelect;
+import hash.MurmurHash;
+import math.distance.HammingDistance;
+import sort.HeapSelect;
 
 import java.lang.reflect.Array;
 import java.nio.ByteBuffer;

@@ -16,7 +16,7 @@
 
 package validation;
 
-import smile.sort.QuickSort;
+import sort.QuickSort;
 
 /**
  * The area under the curve (AUC). When using normalized units, the area under

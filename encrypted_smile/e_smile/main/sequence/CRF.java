@@ -20,12 +20,12 @@ import java.util.List;
 import java.util.concurrent.Callable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import smile.data.Attribute;
-import smile.data.NominalAttribute;
-import smile.data.NumericAttribute;
-import smile.math.Math;
+import data.Attribute;
+import data.NominalAttribute;
+import data.NumericAttribute;
+import math.Math;
 import regression.RegressionTree;
-import smile.sort.QuickSort;
+import sort.QuickSort;
 import util.MulticoreExecutor;
 
 /**

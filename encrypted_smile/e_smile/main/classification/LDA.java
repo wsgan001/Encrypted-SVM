@@ -18,10 +18,10 @@ package classification;
 
 import java.io.Serializable;
 import java.util.Arrays;
-import smile.math.Math;
-import smile.math.matrix.Matrix;
-import smile.math.matrix.DenseMatrix;
-import smile.math.matrix.EVD;
+import math.Math;
+import math.matrix.Matrix;
+import math.matrix.DenseMatrix;
+import math.matrix.EVD;
 
 /**
  * Linear discriminant analysis. LDA is based on the Bayes decision theory

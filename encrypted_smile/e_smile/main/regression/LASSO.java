@@ -19,13 +19,13 @@ import java.io.Serializable;
 import java.util.Arrays;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import smile.math.Math;
-import smile.math.matrix.Matrix;
-import smile.math.matrix.DenseMatrix;
-import smile.math.matrix.SparseMatrix;
-import smile.math.matrix.BiconjugateGradient;
-import smile.math.matrix.Preconditioner;
-import smile.math.special.Beta;
+import math.Math;
+import math.matrix.Matrix;
+import math.matrix.DenseMatrix;
+import math.matrix.SparseMatrix;
+import math.matrix.BiconjugateGradient;
+import math.matrix.Preconditioner;
+import math.special.Beta;
 
 /**
  * Lasso (least absolute shrinkage and selection operator) regression.

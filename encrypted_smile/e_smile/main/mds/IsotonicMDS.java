@@ -17,9 +17,9 @@ package mds;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import smile.math.Math;
-import smile.math.DifferentiableMultivariateFunction;
-import smile.sort.QuickSort;
+import math.Math;
+import math.DifferentiableMultivariateFunction;
+import sort.QuickSort;
 
 /**
  * Kruskal's nonmetric MDS. In non-metric MDS, only the rank order of entries

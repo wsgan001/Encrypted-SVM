@@ -15,10 +15,10 @@
  *******************************************************************************/
 package imputation;
 
-import smile.math.matrix.Matrix;
-import smile.math.matrix.DenseMatrix;
-import smile.math.matrix.QR;
-import smile.math.matrix.SVD;
+import math.matrix.Matrix;
+import math.matrix.DenseMatrix;
+import math.matrix.QR;
+import math.matrix.SVD;
 
 /**
  * Missing value imputation with singular value decomposition. Given SVD

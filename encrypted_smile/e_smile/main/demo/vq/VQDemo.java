@@ -100,8 +100,8 @@ public abstract class VQDemo extends JPanel implements Runnable, ActionListener,
             DelimitedTextParser parser = new DelimitedTextParser();
             parser.setDelimiter("[\t ]+");
             try {
-                AttributeDataset data = parser.parse(datasetName[datasetIndex], data.parser.IOUtils.getTestDataFile(datasource[datasetIndex]));
-                dataset[datasetIndex] = data.toArray(new double[data.size()][]);
+                AttributeDataset data1 = parser.parse(datasetName[datasetIndex], data.parser.IOUtils.getTestDataFile(datasource[datasetIndex]));
+                dataset[datasetIndex] = data1.toArray(new double[data1.size()][]);
             } catch (Exception e) {
                 JOptionPane.showMessageDialog(null, "Failed to load dataset.", "ERROR", JOptionPane.ERROR_MESSAGE);
                 System.out.println(e);
@@ -194,8 +194,8 @@ public abstract class VQDemo extends JPanel implements Runnable, ActionListener,
                 DelimitedTextParser parser = new DelimitedTextParser();
                 parser.setDelimiter("[\t ]+");
                 try {
-                    AttributeDataset data = parser.parse(datasetName[datasetIndex], data.parser.IOUtils.getTestDataFile(datasource[datasetIndex]));
-                    dataset[datasetIndex] = data.toArray(new double[data.size()][]);
+                    AttributeDataset data1 = parser.parse(datasetName[datasetIndex], data.parser.IOUtils.getTestDataFile(datasource[datasetIndex]));
+                    dataset[datasetIndex] = data1.toArray(new double[data1.size()][]);
                 } catch (Exception ex) {
                     JOptionPane.showMessageDialog(null, "Failed to load dataset.", "ERROR", JOptionPane.ERROR_MESSAGE);
                     System.err.println(ex);

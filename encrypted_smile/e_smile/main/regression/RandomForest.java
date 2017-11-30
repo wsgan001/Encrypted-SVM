@@ -20,9 +20,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Callable;
 
-import smile.data.Attribute;
-import smile.data.NumericAttribute;
-import smile.math.Math;
+import data.Attribute;
+import data.NumericAttribute;
+import math.Math;
 import util.MulticoreExecutor;
 import util.SmileUtils;
 import validation.RMSE;

@@ -16,10 +16,10 @@
 package projection;
 
 import java.io.Serializable;
-import smile.math.Math;
-import smile.math.matrix.DenseMatrix;
-import smile.math.matrix.Matrix;
-import smile.stat.distribution.GaussianDistribution;
+import math.Math;
+import math.matrix.DenseMatrix;
+import math.matrix.Matrix;
+import stat.distribution.GaussianDistribution;
 
 /**
  * Random projection is a promising dimensionality reduction technique for

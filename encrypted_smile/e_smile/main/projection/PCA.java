@@ -16,11 +16,11 @@
 package projection;
 
 import java.io.Serializable;
-import smile.math.Math;
-import smile.math.matrix.Matrix;
-import smile.math.matrix.DenseMatrix;
-import smile.math.matrix.EVD;
-import smile.math.matrix.SVD;
+import math.Math;
+import math.matrix.Matrix;
+import math.matrix.DenseMatrix;
+import math.matrix.EVD;
+import math.matrix.SVD;
 
 /**
  * Principal component analysis. PCA is an orthogonal

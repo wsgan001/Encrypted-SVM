@@ -22,11 +22,11 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.LinkedList;
 import java.util.concurrent.Callable;
-import smile.data.Attribute;
-import smile.data.NominalAttribute;
-import smile.data.NumericAttribute;
-import smile.math.Math;
-import smile.sort.QuickSort;
+import data.Attribute;
+import data.NominalAttribute;
+import data.NumericAttribute;
+import math.Math;
+import sort.QuickSort;
 import util.MulticoreExecutor;
 
 /**

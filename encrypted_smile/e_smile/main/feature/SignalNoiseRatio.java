@@ -16,7 +16,7 @@
 
 package feature;
 
-import smile.math.Math;
+import math.Math;
 
 /**
  * The signal-to-noise (S2N) metric ratio is a univariate feature ranking metric,

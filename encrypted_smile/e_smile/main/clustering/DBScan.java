@@ -23,9 +23,9 @@ import neighbor.Neighbor;
 import neighbor.RNNSearch;
 import neighbor.LinearSearch;
 import neighbor.CoverTree;
-import smile.math.Math;
-import smile.math.distance.Distance;
-import smile.math.distance.Metric;
+import math.Math;
+import math.distance.Distance;
+import math.distance.Metric;
 
 /**
  * Density-Based Spatial Clustering of Applications with Noise.

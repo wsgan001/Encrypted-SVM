@@ -20,7 +20,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import smile.math.distance.Metric;
+import math.distance.Metric;
 
 /**
  * A BK-tree is a metric tree specifically adapted to discrete metric spaces.

@@ -20,10 +20,10 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.PriorityQueue;
 
-import smile.math.IntArrayList;
-import smile.math.Math;
-import smile.sort.HeapSelect;
-import smile.stat.distribution.GaussianDistribution;
+import math.IntArrayList;
+import math.Math;
+import sort.HeapSelect;
+import stat.distribution.GaussianDistribution;
 
 /**
  * Multi-Probe Locality-Sensitive Hashing. LSH is an efficient algorithm for

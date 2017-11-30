@@ -17,7 +17,7 @@
 package sampling;
 
 import java.util.ArrayList;
-import smile.math.Math;
+import math.Math;
 
 /**
  * Bagging (Bootstrap aggregating) is a way to improve the classification by
@@ -71,7 +71,7 @@ public class Bagging {
                 // But we switch to down sampling, which seems has better performance.
                 int size = nj / classWeight[l];
                 for (int i = 0; i < size; i++) {
-                    int xi = smile.math.Math.randomInt(nj);
+                    int xi = math.Math.randomInt(nj);
                     sampling[cj.get(xi)] += 1;
                 }
             }

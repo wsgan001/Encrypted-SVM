@@ -23,8 +23,8 @@ import clustering.Clustering;
 import clustering.HierarchicalClustering;
 import clustering.linkage.Linkage;
 import clustering.linkage.UPGMALinkage;
-import smile.sort.HeapSelect;
-import smile.math.Math;
+import sort.HeapSelect;
+import math.Math;
 
 /**
  * Growing Neural Gas. As an extension of Neural Gas, Growing Neural Gas

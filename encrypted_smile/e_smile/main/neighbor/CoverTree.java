@@ -22,9 +22,9 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import smile.math.Math;
-import smile.math.distance.Metric;
-import smile.sort.DoubleHeapSelect;
+import math.Math;
+import math.distance.Metric;
+import sort.DoubleHeapSelect;
 
 /**
  * Cover tree is a data structure for generic nearest neighbor search, which

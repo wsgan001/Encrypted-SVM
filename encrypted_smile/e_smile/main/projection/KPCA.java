@@ -16,11 +16,11 @@
 package projection;
 
 import java.io.Serializable;
-import smile.math.Math;
-import smile.math.kernel.MercerKernel;
-import smile.math.matrix.Matrix;
-import smile.math.matrix.DenseMatrix;
-import smile.math.matrix.EVD;
+import math.Math;
+import math.kernel.MercerKernel;
+import math.matrix.Matrix;
+import math.matrix.DenseMatrix;
+import math.matrix.EVD;
 
 /**
  * Kernel principal component analysis. Kernel PCA is an extension of
@@ -46,7 +46,7 @@ import smile.math.matrix.EVD;
  * <li>Bernhard Scholkopf, Alexander Smola, and Klaus-Robert Muller. Nonlinear Component Analysis as a Kernel Eigenvalue Problem. Neural Computation, 1998.</li>
  * </ol>
  *
- * @see smile.math.kernel.MercerKernel
+ * @see math.kernel.MercerKernel
  * @see PCA
  * @see manifold.IsoMap
  * @see manifold.LLE

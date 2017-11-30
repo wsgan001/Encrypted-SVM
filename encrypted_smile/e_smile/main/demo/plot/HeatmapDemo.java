@@ -93,13 +93,13 @@ public class HeatmapDemo extends JPanel {
     public static void main(String[] args) {
         try {
             RESParser parser = new RESParser();
-            AttributeDataset data = parser.parse("RES", data.parser.IOUtils.getTestDataFile("microarray/all_aml_test.res"));
+            AttributeDataset data1 = parser.parse("RES", data.parser.IOUtils.getTestDataFile("microarray/all_aml_test.res"));
             
-            double[][] x = data.toArray(new double[data.size()][]);
-            String[] genes = data.toArray(new String[data.size()]);
-            String[] arrays = new String[data.attributes().length];
+            double[][] x = data1.toArray(new double[data1.size()][]);
+            String[] genes = data1.toArray(new String[data1.size()]);
+            String[] arrays = new String[data1.attributes().length];
             for (int i = 0; i < arrays.length; i++) {
-                arrays[i] = data.attributes()[i].getName();
+                arrays[i] = data1.attributes()[i].getName();
             }
 
             JFrame frame = new JFrame("Heatmap");

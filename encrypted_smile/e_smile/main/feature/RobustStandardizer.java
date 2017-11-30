@@ -16,9 +16,9 @@
 
 package feature;
 
-import smile.data.Attribute;
-import smile.math.Math;
-import smile.sort.QuickSelect;
+import data.Attribute;
+import math.Math;
+import sort.QuickSelect;
 
 /**
  * Robustly standardizes numeric feature by subtracting

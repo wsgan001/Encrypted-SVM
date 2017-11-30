@@ -15,7 +15,7 @@
  *******************************************************************************/
 package validation;
 
-import smile.math.Math;
+import math.Math;
 import classification.Classifier;
 import classification.ClassifierTrainer;
 import regression.Regression;

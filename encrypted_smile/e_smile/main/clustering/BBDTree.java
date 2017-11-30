@@ -16,7 +16,7 @@
 package clustering;
 
 import java.util.Arrays;
-import smile.math.Math;
+import math.Math;
 
 /**
  * Balanced Box-Decomposition Tree. BBD tree is a specialized k-d tree that

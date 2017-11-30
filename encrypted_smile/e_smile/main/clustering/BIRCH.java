@@ -22,7 +22,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import clustering.linkage.Linkage;
 import clustering.linkage.WardLinkage;
-import smile.math.Math;
+import math.Math;
 
 /**
  * Balanced Iterative Reducing and Clustering using Hierarchies. BIRCH performs

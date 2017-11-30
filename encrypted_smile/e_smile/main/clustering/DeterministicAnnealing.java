@@ -22,10 +22,10 @@ import java.util.List;
 import java.util.concurrent.Callable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import smile.math.Math;
-import smile.math.matrix.DenseMatrix;
-import smile.math.matrix.Matrix;
-import smile.math.matrix.PowerIteration;
+import math.Math;
+import math.matrix.DenseMatrix;
+import math.matrix.Matrix;
+import math.matrix.PowerIteration;
 import util.MulticoreExecutor;
 
 /**

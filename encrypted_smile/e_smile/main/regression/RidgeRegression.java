@@ -17,11 +17,11 @@
 package regression;
 
 import java.io.Serializable;
-import smile.math.Math;
-import smile.math.matrix.Matrix;
-import smile.math.matrix.Cholesky;
-import smile.math.matrix.DenseMatrix;
-import smile.math.special.Beta;
+import math.Math;
+import math.matrix.Matrix;
+import math.matrix.Cholesky;
+import math.matrix.DenseMatrix;
+import math.special.Beta;
 
 /**
  * Ridge Regression. Coefficient estimates for multiple linear regression models rely on

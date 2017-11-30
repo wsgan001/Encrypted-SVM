@@ -16,8 +16,8 @@
 
 package feature;
 
-import smile.data.Attribute;
-import smile.data.NumericAttribute;
+import data.Attribute;
+import data.NumericAttribute;
 
 /**
  * Feature transformation. In general, learning algorithms benefit from

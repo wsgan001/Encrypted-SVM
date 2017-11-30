@@ -18,9 +18,9 @@ package classification;
 import java.io.Serializable;
 import java.util.Arrays;
 
-import smile.data.Attribute;
-import smile.data.NumericAttribute;
-import smile.math.Math;
+import data.Attribute;
+import data.NumericAttribute;
+import math.Math;
 import regression.RegressionTree;
 import util.SmileUtils;
 import validation.Accuracy;

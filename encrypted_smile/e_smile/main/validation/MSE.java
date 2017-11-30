@@ -16,7 +16,7 @@
 
 package validation;
 
-import smile.math.Math;
+import math.Math;
 
 /**
  * Mean squared error.

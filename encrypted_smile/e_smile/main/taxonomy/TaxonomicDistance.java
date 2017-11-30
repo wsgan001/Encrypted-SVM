@@ -18,7 +18,7 @@ package taxonomy;
 
 import java.util.Iterator;
 import java.util.List;
-import smile.math.distance.Distance;
+import math.distance.Distance;
 
 /**
  * The distance between concepts in a taxonomy.

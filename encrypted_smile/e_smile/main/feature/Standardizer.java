@@ -16,8 +16,8 @@
 
 package feature;
 
-import smile.math.Math;
-import smile.data.Attribute;
+import math.Math;
+import data.Attribute;
 
 /**
  * Standardizes numeric feature to 0 mean and unit variance.

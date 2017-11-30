@@ -16,7 +16,7 @@
 
 package feature;
 
-import smile.data.Attribute;
+import data.Attribute;
 
 /**
  * Feature generator.

@@ -20,9 +20,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import smile.math.Math;
-import smile.sort.QuickSort;
-import smile.stat.distribution.GaussianDistribution;
+import math.Math;
+import sort.QuickSort;
+import stat.distribution.GaussianDistribution;
 
 /**
  * G-Means clustering algorithm, an extended K-Means which tries to

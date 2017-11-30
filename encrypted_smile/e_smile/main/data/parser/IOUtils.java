@@ -31,7 +31,7 @@ public class IOUtils {
 
     }
 
-    private static String home = System.getProperty("smile.home", "shell/src/universal/");
+    private static String home = System.getProperty("home", "shell/src/universal/");
 
     /** Get the file path of sample dataset. */
     public static String getTestDataPath(String path) {

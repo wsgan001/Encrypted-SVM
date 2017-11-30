@@ -18,9 +18,9 @@ package feature;
 
 import java.util.HashMap;
 import java.util.Map;
-import smile.data.Attribute;
-import smile.data.NominalAttribute;
-import smile.data.NumericAttribute;
+import data.Attribute;
+import data.NominalAttribute;
+import data.NumericAttribute;
 
 /**
  * The bag-of-words feature of text used in natural language

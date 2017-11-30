@@ -25,9 +25,9 @@ import java.util.concurrent.Callable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import smile.math.DoubleArrayList;
-import smile.math.Math;
-import smile.math.kernel.MercerKernel;
+import math.DoubleArrayList;
+import math.Math;
+import math.kernel.MercerKernel;
 import util.MulticoreExecutor;
 
 /**

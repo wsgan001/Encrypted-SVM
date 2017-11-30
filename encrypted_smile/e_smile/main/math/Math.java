@@ -100,14 +100,14 @@ public class Math {
     /**
      * High quality random number generator.
      */
-    private static ThreadLocal<math.random> random = new ThreadLocal<math.random>() {
-        protected synchronized math.random initialValue() {
+    private static ThreadLocal<math.Random> random = new ThreadLocal<math.Random>() {
+        protected synchronized math.Random initialValue() {
             if (firstRNG) {
                 // For the first RNG, we use the default seed so that we can
                 // get repeatable results for random algorithms.
                 // Note that this may or may not be the main thread.
                 firstRNG = false;
-                return new math.random();
+                return new math.Random();
             } else {
                 // Make sure other threads not to use the same seed.
                 // This is very important for some algorithms such as random forest.
@@ -121,7 +121,7 @@ public class Math {
                     seed |= (bytes[i] & 0xFF);
                 }
 
-                return new math.random(seed);
+                return new math.Random(seed);
             }
         }
     };

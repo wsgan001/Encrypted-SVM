@@ -16,8 +16,8 @@
 
 package feature;
 
-import smile.data.Attribute;
-import smile.data.NominalAttribute;
+import data.Attribute;
+import data.NominalAttribute;
 
 /**
  * Encode categorical integer features using sparse one-hot scheme.

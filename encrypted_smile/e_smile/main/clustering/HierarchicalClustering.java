@@ -23,7 +23,7 @@ import clustering.linkage.Linkage;
 import clustering.linkage.UPGMCLinkage;
 import clustering.linkage.WPGMCLinkage;
 import clustering.linkage.WardLinkage;
-import smile.sort.IntHeapSelect;
+import sort.IntHeapSelect;
 
 /**
  * Agglomerative Hierarchical Clustering. Hierarchical agglomerative clustering

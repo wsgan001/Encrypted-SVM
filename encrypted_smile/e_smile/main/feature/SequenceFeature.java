@@ -15,7 +15,7 @@
  *******************************************************************************/
 package feature;
 
-import smile.data.Attribute;
+import data.Attribute;
 
 /**
  * Sequence feature generator.

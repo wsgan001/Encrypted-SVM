@@ -16,8 +16,8 @@
 
 package feature;
 
-import smile.math.Math;
-import smile.data.Attribute;
+import math.Math;
+import data.Attribute;
 
 /**
  * Scales all numeric variables into the range [0, 1].

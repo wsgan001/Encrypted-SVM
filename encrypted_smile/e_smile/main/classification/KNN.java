@@ -18,10 +18,10 @@ package classification;
 
 import java.io.Serializable;
 import java.util.Arrays;
-import smile.math.Math;
-import smile.math.distance.Distance;
-import smile.math.distance.EuclideanDistance;
-import smile.math.distance.Metric;
+import math.Math;
+import math.distance.Distance;
+import math.distance.EuclideanDistance;
+import math.distance.Metric;
 import neighbor.CoverTree;
 import neighbor.KDTree;
 import neighbor.KNNSearch;

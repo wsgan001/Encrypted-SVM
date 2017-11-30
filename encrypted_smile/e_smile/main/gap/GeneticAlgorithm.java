@@ -23,7 +23,7 @@ import java.util.concurrent.Callable;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import smile.math.Math;
+import math.Math;
 import util.MulticoreExecutor;
 
 /**

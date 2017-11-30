@@ -17,7 +17,7 @@
 package feature;
 
 import java.util.Arrays;
-import smile.math.Math;
+import math.Math;
 
 /**
  * The ratio of between-groups to within-groups sum of squares is a univariate

@@ -17,8 +17,8 @@ package neighbor;
 
 import java.util.List;
 
-import smile.math.Math;
-import smile.sort.HeapSelect;
+import math.Math;
+import sort.HeapSelect;
 
 /**
  * A KD-tree (short for k-dimensional tree) is a space-partitioning dataset

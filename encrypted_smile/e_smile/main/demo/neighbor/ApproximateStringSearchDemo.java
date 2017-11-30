@@ -59,7 +59,7 @@ public class ApproximateStringSearchDemo extends JPanel implements Runnable, Act
     private JButton startButton;
     private JTextField knnField;
     private int knn = 1;
-    private String[] data;
+    private String[] data1;
     private BKTree<String> bktree;
     private CoverTree<String> cover;
     private LinearSearch<String> naive;
@@ -91,7 +91,7 @@ public class ApproximateStringSearchDemo extends JPanel implements Runnable, Act
         startButton.setEnabled(false);
         knnField.setEnabled(false);
 
-        if (data == null) {
+        if (data1 == null) {
             System.out.print("Loading dataset...");
             List<String> words = new ArrayList<>();
 
@@ -110,21 +110,21 @@ public class ApproximateStringSearchDemo extends JPanel implements Runnable, Act
                 System.err.println(e);
             }
 
-            data = words.toArray(new String[1]);
+            data1 = words.toArray(new String[1]);
             System.out.println(words.size() + " words");
             
             System.out.println("Building searching data structure...");
             long time = System.currentTimeMillis();
-            naive = new LinearSearch<>(data, new EditDistance(50, true));
+            naive = new LinearSearch<>(data1, new EditDistance(50, true));
             int naiveBuild = (int) (System.currentTimeMillis() - time) / 1000;
 
             time = System.currentTimeMillis();
             bktree = new BKTree<>(new EditDistance(50, true));
-            bktree.add(data);
+            bktree.add(data1);
             int bktreeBuild = (int) (System.currentTimeMillis() - time) / 1000;
 
             time = System.currentTimeMillis();
-            cover = new CoverTree<>(data, new EditDistance(50, true));
+            cover = new CoverTree<>(data1, new EditDistance(50, true));
             int coverBuild = (int) (System.currentTimeMillis() - time) / 1000;
 
             double[] buildTime = {naiveBuild, bktreeBuild, coverBuild};
@@ -134,27 +134,27 @@ public class ApproximateStringSearchDemo extends JPanel implements Runnable, Act
             validate();
         }
 
-        int[] perm = Math.permutate(data.length);
+        int[] perm = Math.permutate(data1.length);
 
         System.out.println("Perform 1000 searches...");
         long time = System.currentTimeMillis();
         List<Neighbor<String, String>> neighbors = new ArrayList<>();
         for (int i = 0; i < 1000; i++) {
-            naive.range(data[perm[i]], knn, neighbors);
+            naive.range(data1[perm[i]], knn, neighbors);
             neighbors.clear();
         }
         int naiveSearch = (int) (System.currentTimeMillis() - time) / 1000;
 
         time = System.currentTimeMillis();
         for (int i = 0; i < 1000; i++) {
-            bktree.range(data[perm[i]], knn, neighbors);
+            bktree.range(data1[perm[i]], knn, neighbors);
             neighbors.clear();
         }
         int kdtreeSearch = (int) (System.currentTimeMillis() - time) / 1000;
 
         time = System.currentTimeMillis();
         for (int i = 0; i < 1000; i++) {
-            cover.range(data[perm[i]], knn, neighbors);
+            cover.range(data1[perm[i]], knn, neighbors);
             neighbors.clear();
         }
         int coverSearch = (int) (System.currentTimeMillis() - time) / 1000;

@@ -17,13 +17,13 @@
 package regression;
 
 import java.io.Serializable;
-import smile.math.Math;
-import smile.math.kernel.MercerKernel;
-import smile.math.matrix.Matrix;
-import smile.math.matrix.DenseMatrix;
-import smile.math.matrix.Cholesky;
-import smile.math.matrix.LU;
-import smile.math.matrix.EVD;
+import math.Math;
+import math.kernel.MercerKernel;
+import math.matrix.Matrix;
+import math.matrix.DenseMatrix;
+import math.matrix.Cholesky;
+import math.matrix.LU;
+import math.matrix.EVD;
 
 /**
  * Gaussian Process for Regression. A Gaussian process is a stochastic process

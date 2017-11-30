@@ -16,11 +16,11 @@
 package projection;
 
 import java.io.Serializable;
-import smile.math.Math;
-import smile.math.matrix.Matrix;
-import smile.math.matrix.DenseMatrix;
-import smile.math.matrix.Cholesky;
-import smile.math.matrix.EVD;
+import math.Math;
+import math.matrix.Matrix;
+import math.matrix.DenseMatrix;
+import math.matrix.Cholesky;
+import math.matrix.EVD;
 
 /**
  * Probabilistic principal component analysis. PPCA is a simplified factor analysis

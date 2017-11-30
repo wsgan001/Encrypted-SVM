@@ -15,7 +15,7 @@
  *******************************************************************************/
 package regression;
 
-import smile.data.Attribute;
+import data.Attribute;
 
 /**
  * Abstract regression model trainer.

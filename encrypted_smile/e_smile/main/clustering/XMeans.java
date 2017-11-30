@@ -19,8 +19,8 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import smile.math.Math;
-import smile.sort.QuickSort;
+import math.Math;
+import sort.QuickSort;
 
 /**
  * X-Means clustering algorithm, an extended K-Means which tries to

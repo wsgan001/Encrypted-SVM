@@ -19,7 +19,7 @@ import java.util.Arrays;
 
 import clustering.ClusteringDistance;
 import clustering.PartitionClustering;
-import smile.math.Math;
+import math.Math;
 
 /**
  * Neural Gas soft competitive learning algorithm. The Neural Gas is inspired

@@ -16,7 +16,7 @@
 package wavelet;
 
 import java.util.Arrays;
-import smile.math.Math;
+import math.Math;
 
 /**
  * A wavelet is a wave-like oscillation with an amplitude that starts out at
